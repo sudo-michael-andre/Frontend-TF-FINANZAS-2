@@ -1,0 +1,90 @@
+/* VerCuotas.css */
+.layout-cuotas {
+    display: flex;
+  }
+  
+  .cuotas-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    animation: slideIn 0.5s ease-out; /* Animación de entrada */
+  }
+  
+  .cuotas-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cuotas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .cuotas-table th,
+  .cuotas-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cuotas-table th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  .cuotas-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .action-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e60000;
+  }
+  
+  .pagado {
+    background-color: #d4edda; /* Verde claro */
+  }
+  
+  .no-pagado {
+    background-color: #fff3cd; /* Amarillo claro */
+  }
+  
+  .retraso-moderado {
+    background-color: #f8d6c8; /* Naranja claro */
+  }
+  
+  .retraso-severo {
+    background-color: #b63f49; /* Rojo claro */
+  }
+  .action-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .print-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .print-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  

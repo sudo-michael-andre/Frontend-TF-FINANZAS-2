@@ -1,0 +1,66 @@
+.layout-cuenta-corriente {
+    display: flex;
+  }
+  
+  .cuenta-corriente-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    animation: slideIn 0.5s ease-out; /* Animación de entrada */
+  }
+  
+  .cuenta-corriente-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 0.5rem;
+  }
+  
+  .cuenta-corriente-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cuenta-corriente-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .cuenta-corriente-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .cuenta-corriente-content th,
+  .cuenta-corriente-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cuenta-corriente-content th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .cuenta-corriente-content td {
+    color: #666;
+  }
+  
+  .fila-egreso {
+    background-color: #f8d7da; /* Color de fondo para egresos (rojo claro) */
+  }
+  
+  .fila-ingreso {
+    background-color: #d4edda; /* Color de fondo para ingresos (verde claro) */
+  }
+  

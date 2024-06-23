@@ -1,0 +1,137 @@
+/* Layout */
+.layout-usuario {
+  display: flex;
+  background-color: #f8f9fa;
+
+  min-height: 100vh;
+}
+
+/* Main Container */
+.home-container {
+  flex-grow: 1;
+  height: 100vh;
+
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Header with Icon */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-credit-card {
+  font-size: 3rem;
+  color: #ffa41c;
+  margin-right: 10px;
+  animation: bounce 2s infinite;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #232f3e;
+  font-weight: bold;
+}
+
+/* Description */
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #37475a;
+}
+
+/* Financial Information Sections */
+.financial-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.info-section {
+  background-color: #f7f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 45%;
+}
+
+.info-section .icon {
+  font-size: 2rem;
+  color: #ffa41c;
+  margin-bottom: 10px;
+}
+
+.info-title {
+  font-size: 1.5rem;
+  color: #232f3e;
+  margin-bottom: 10px;
+}
+
+.info-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Credit Offer Section */
+.credit-offer {
+  background-color: #f7f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.credit-text {
+  font-size: 1.1rem;
+  color: #232f3e;
+}
+
+/* Creators Section */
+.creators {
+  font-size: 0.9rem;
+  color: #37475a;
+  text-align: left;
+}
+
+.creators p {
+  font-weight: bold;
+}
+
+.creators ul {
+  list-style: none;
+  padding: 0;
+}
+
+.creators li {
+  margin-bottom: 5px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
